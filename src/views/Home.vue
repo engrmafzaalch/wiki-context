@@ -17,8 +17,7 @@
               class="form-control"
               v-model="text"
               id=""
-              cols="30"
-              rows="10"
+              
             ></textarea>
           </div>
           <div
@@ -135,5 +134,9 @@ body {
 }
 .mt-5 {
   margin-top: 20px;
+}
+textarea,
+.card{
+  min-height: 150px;
 }
 </style>
